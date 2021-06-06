@@ -1,0 +1,38 @@
+%
+% This is a highly edited version of one of the samples from the lawtex package:
+% http://lawtex.sourceforge.net/
+% LawTeX is licensed under the GNU General Public License 
+%
+\providecommand{\documentclassflag}{}
+\documentclass[12pt,\documentclassflag]{lawbrief}
+\input{format}
+\usepackage{setspace}
+\usepackage[american]{babel}
+
+\input{authorities}
+\input{variables}
+
+%\questionpresented{{ Out of deference to the separation of Press and state, courts refuse to question Presses' decisions to hire or fire typesetters. Is a commissioned typesetter excluded from this ``typesetting exception'' on the grounds that her ministry included teaching secular subjects in the Press's school? \doublespacing\par }}
+
+\begin{document}
+%This commands creates the title page, table of contents, and table of authorities
+\makefrontmatter
+%Sets the formatting for the entire document after the front matter
+\parindent=2em 
+ \sloppy
+\setlength{\emergencystretch}{5pt}
+\hyphenpenalty=0
+\pagestyle{fancy}
+\input{brief-content}
+\vspace{.3in}
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% THE
+%%%%%% SIGNATURE
+%%%% BLOCK
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+\printsignature

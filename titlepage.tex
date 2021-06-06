@@ -1,0 +1,53 @@
+\renewcommand{\maketitle}{\makesupremetitle}
+\newcommand{\makesupremetitle}{\thispagestyle{empty}
+%\setlength{\parskip}{1ex}
+%\vspace*{-85pt}
+\begin{center}
+{\bf \@docket}
+\sectionline\\
+\scshape\large
+In The \\
+\vspace{7.5pt}%
+\normalfont\scalebox{1.05}{\LARGE\blcklttr Supreme Court of the United States}\normalfont\large\\
+%\includegraphics[width=.95\textwidth]{MorrisTyler.pdf}
+\vspace{7.5pt}
+\scshape\large\@firstparty \\
+\hfill \normalfont\itshape\large\@firstpartytitle\large\\
+\textit{v}\normalfont. \\
+~\\
+\scshape\large\@secondparty\normalfont \\
+\hfill\itshape\large \@secondpartytitle\normalfont\large\\
+
+\smallrule
+
+\normalfont\large On Writ of \textit{Certiorari} to the\\
+United States Court of Appeals\\ 
+for the \@circuit{} Circuit\normalfont
+
+\smallrule
+
+\scshape\large Brief for \textit{\@brieffor{}}\\
+\LaTeX\ Users Coalition\\
+in Support of \@insupportof
+
+\smallrule
+
+\end{center}
+
+\scshape\large
+\hfill\begin{minipage}{0.75\textwidth}
+\begin{flushright}
+\normalfont\@author\\
+\@address\\\texttt{\@email}
+\end{flushright}
+\end{minipage}\normalfont\large
+
+\begin{flushleft}
+	\@mydate
+	\end{flushleft}
+
+\vfill
+
+\sectionline
+\newpage\normalfont\normalsize
+}

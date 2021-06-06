@@ -1,0 +1,1323 @@
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.27)  6 JUN 2021 10:15
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-05-25> (./lawbrief.cls
+Document Class: lawbrief 
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count177
+\c@section=\count178
+\c@subsection=\count179
+\c@subsubsection=\count180
+\c@paragraph=\count181
+\c@subparagraph=\count182
+\c@figure=\count183
+\c@table=\count184
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (/Users/ezgranet/Desktop/stationery/ezgranet-fonts/ezgranet-fonts-century.tex
+\Tight=\XeTeXcharclass1
+\Dashes=\XeTeXcharclass2
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-05-25 L3 programming layer (loader) 
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2021-05-07 L3 backend support: XeTeX
+ (|extractbb --version)
+\c__kernel_sys_dvipdfmx_version_int=\count185
+\l__color_backend_stack_int=\count186
+\g__color_backend_stack_int=\count187
+\g__graphics_track_int=\count188
+\l__pdf_internal_box=\box47
+\g__pdf_backend_object_int=\count189
+\g__pdf_backend_annotation_int=\count190
+\g__pdf_backend_link_int=\count191
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-01.sty (/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.tex)))
+Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
+\l__fontspec_script_int=\count192
+\l__fontspec_language_int=\count193
+\l__fontspec_strnum_int=\count194
+\l__fontspec_tmp_int=\count195
+\l__fontspec_tmpa_int=\count196
+\l__fontspec_tmpb_int=\count197
+\l__fontspec_tmpc_int=\count198
+\l__fontspec_em_int=\count199
+\l__fontspec_emdef_int=\count266
+\l__fontspec_strong_int=\count267
+\l__fontspec_strongdef_int=\count268
+\l__fontspec_tmpa_dim=\dimen139
+\l__fontspec_tmpb_dim=\dimen140
+\l__fontspec_tmpc_dim=\dimen141
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (/usr/local/texlive/2021/texmf-dist/tex/latex/xpatch/xpatch.sty
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count269
+))
+
+Package fontspec Info: Font family 'TeXGyreScholaX-Regular(0)' created for
+(fontspec)             font 'TeXGyreScholaX-Regular' with options
+(fontspec)             [Ligatures=TeX,RawFeature={+liga,+dlig},ItalicFont={TeXGyreScholaX-Italic},ItalicFeatures={
+(fontspec)             SmallCapsFont={TeXGyreScholaX-Italic},
+(fontspec)             SmallCapsFeatures={LetterSpace= 10,
+(fontspec)             RawFeature={+smcp}},
+(fontspec)             },BoldFont={TeXGyreScholaX-Bold},SmallCapsFont={TeXGyreScholaX-Regular},SmallCapsFeatures={LetterSpace=
+(fontspec)             10, RawFeature={+smcp}}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"TeXGyreScholaX-Regular/OT:script=latn;language=dflt;+liga,+dlig;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"TeXGyreScholaX-Regular/OT:script=latn;language=dflt;letterspace=10;+liga,+dlig;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"TeXGyreScholaX-Bold/OT:script=latn;language=dflt;+liga,+dlig;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"TeXGyreScholaX-Regular/OT:script=latn;language=dflt;letterspace=10;+liga,+dlig;+smcp;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"TeXGyreScholaX-Italic/OT:script=latn;language=dflt;+liga,+dlig;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"TeXGyreScholaX-Italic/OT:script=latn;language=dflt;letterspace=10;letterspace=10;+liga,+dlig;+smcp;+smcp;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"TeXGyreScholaX-Italic/B/OT:script=latn;language=dflt;+liga,+dlig;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"TeXGyreScholaX-Regular/OT:script=latn;language=dflt;letterspace=10;+liga,+dlig;+smcp;mapping=tex-text;"
+
+
+Package fontspec Info: Font family 'LatinModernRoman12Regular(0)' created for
+(fontspec)             font 'Latin Modern Roman 12 Regular' with options
+(fontspec)             [BoldFont={},ItalicFont={},SmallCapsFont={},SmallCapsFont={Latin
+(fontspec)             Modern Roman Caps 10 Regular},SmallCapsFeatures = {
+(fontspec)             LetterSpace = 15, WordSpace = { 1.5, 1.5, 1.5}, }].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Latin Modern
+(fontspec)             Roman 12 Regular/OT:script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"Latin
+(fontspec)             Modern Roman Caps 10
+(fontspec)             Regular/OT:script=latn;language=dflt;letterspace=15;"
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font = 1.5\fontdimen 2\font \fontdimen
+(fontspec)             3\font = 1.5\fontdimen 3\font \fontdimen 4\font =
+(fontspec)             1.5\fontdimen 4\font 
+
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box48
+\UL@hyphenbox=\box49
+\UL@skip=\skip49
+\UL@hook=\toks15
+\UL@height=\dimen142
+\UL@pe=\count270
+\UL@pixel=\dimen143
+\ULC@box=\box50
+Package: ulem 2019/11/18
+\ULdepth=\dimen144
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 105.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2021/03/18 v5.0k Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen145
+\Gin@req@width=\dimen146
+)
+
+Package fontspec Info: Font family 'FrederickText(0)' created for font
+(fontspec)             'FrederickText' with options
+(fontspec)             [BoldFont={},ItalicFont={},SmallCapsFont={}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"FrederickText/AAT"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'MinionPro(0)' created for font 'Minion
+(fontspec)             Pro' with options
+(fontspec)             [BoldFont={},ItalicFont={},SmallCapsFont={},Numbers={Proportional,OldStyle}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Minion
+(fontspec)             Pro/OT:script=latn;language=dflt;+pnum;+onum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'MyriadProSemibold(0)' created for font
+(fontspec)             'Myriad Pro Semibold' with options
+(fontspec)             [BoldFont={},ItalicFont={},SmallCapsFont={},Mapping=tex-text,Ligatures={TeX},Scale=.9995,Color=0033a0,RawFeature={+liga,+pnum,},ItalicFont={Myriad
+(fontspec)             Pro Semibold Italic}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[.9995]"Myriad
+(fontspec)             Pro
+(fontspec)             Semibold/OT:script=latn;language=dflt;+liga,+pnum,;mapping=tex-text;color=0033a0FF
+(fontspec)             ;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->s*[.9995]"Myriad
+(fontspec)             Pro Semibold
+(fontspec)             Italic/OT:script=latn;language=dflt;+liga,+pnum,;mapping=tex-text;color=0033a0FF
+(fontspec)             ;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'MyriadProSemibold(1)' created for font
+(fontspec)             'Myriad Pro Semibold' with options
+(fontspec)             [BoldFont={},ItalicFont={},SmallCapsFont={},Mapping=tex-text,Ligatures={TeX},Scale=.95,RawFeature={+liga,+pnum,},ItalicFont={Myriad
+(fontspec)             Pro Semibold Italic}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[.95]"Myriad Pro
+(fontspec)             Semibold/OT:script=latn;language=dflt;+liga,+pnum,;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->s*[.95]"Myriad
+(fontspec)             Pro Semibold
+(fontspec)             Italic/OT:script=latn;language=dflt;+liga,+pnum,;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'EBGaramond(0)' created for font 'EB
+(fontspec)             Garamond' with options
+(fontspec)             [BoldFont={},ItalicFont={},SmallCapsFont={},Scale=1,RawFeature={+calt,+liga,+kern,+ccmp,+mark,+mkmk,+hlig,+onum,+swsh,+smcp},LetterSpace={10},SmallCapsFont={EB
+(fontspec)             Garamond}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1]"EB
+(fontspec)             Garamond/OT:script=latn;language=dflt;letterspace=10;+calt,+liga,+kern,+ccmp,+mark,+mkmk,+hlig,+onum,+swsh,+smcp;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->s*[1]"EB
+(fontspec)             Garamond/OT:script=latn;language=dflt;letterspace=10;+calt,+liga,+kern,+ccmp,+mark,+mkmk,+hlig,+onum,+swsh,+smcp;"
+
+
+Package fontspec Info: Font family 'EBGaramond(1)' created for font 'EB
+(fontspec)             Garamond' with options
+(fontspec)             [BoldFont={},ItalicFont={},SmallCapsFont={},LetterSpace={10},RawFeature={+liga,+kern,+ccmp,+mark,+mkmk,+dlig,+hlig,+onum},ItalicFont={EB
+(fontspec)             Garamond Italic}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"EB
+(fontspec)             Garamond/OT:script=latn;language=dflt;letterspace=10;+liga,+kern,+ccmp,+mark,+mkmk,+dlig,+hlig,+onum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"EB Garamond
+(fontspec)             Italic/OT:script=latn;language=dflt;letterspace=10;+liga,+kern,+ccmp,+mark,+mkmk,+dlig,+hlig,+onum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'EBGaramond(2)' created for font 'EB
+(fontspec)             Garamond' with options
+(fontspec)             [BoldFont={},ItalicFont={},SmallCapsFont={}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"EB
+(fontspec)             Garamond/OT:script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'TrajanPro(0)' created for font 'Trajan
+(fontspec)             Pro' with options
+(fontspec)             [BoldFont={},ItalicFont={},SmallCapsFont={},Scale=.9,LetterSpace={15},WordSpace={2},BoldFont={Trajan
+(fontspec)             Pro Bold}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[.9]"Trajan
+(fontspec)             Pro/OT:script=latn;language=dflt;letterspace=15;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =2\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =2\fontdimen 3\font \fontdimen 4\font =2\fontdimen
+(fontspec)             4\font 
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[.9]"Trajan Pro
+(fontspec)             Bold/OT:script=latn;language=dflt;letterspace=15;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =2\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =2\fontdimen 3\font \fontdimen 4\font =2\fontdimen
+(fontspec)             4\font 
+
+
+Package fontspec Info: Font family 'CinzelDecorative(0)' created for font
+(fontspec)             'Cinzel Decorative' with options
+(fontspec)             [BoldFont={},ItalicFont={},SmallCapsFont={},Scale=1].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1]"Cinzel
+(fontspec)             Decorative/OT:script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'TrajanPro(1)' created for font 'Trajan
+(fontspec)             Pro' with options
+(fontspec)             [BoldFont={},ItalicFont={},SmallCapsFont={},Scale=.9].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[.9]"Trajan
+(fontspec)             Pro/OT:script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+
+Package fontspec Info: Font family 'OCRB(0)' created for font 'OCRB' with
+(fontspec)             options [BoldFont={},ItalicFont={},SmallCapsFont={}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"OCRB/OT:script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'QTCaslanOpen(0)' created for font
+(fontspec)             'QTCaslanOpen' with options
+(fontspec)             [BoldFont={},ItalicFont={},SmallCapsFont={},LetterSpace=20,WordSpace=2].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"QTCaslanOpen/OT:script=latn;language=dflt;letterspace=20;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =2\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =2\fontdimen 3\font \fontdimen 4\font =2\fontdimen
+(fontspec)             4\font 
+
+
+Package fontspec Info: Font family 'QTCaslanOpen(1)' created for font
+(fontspec)             'QTCaslanOpen' with options
+(fontspec)             [BoldFont={},ItalicFont={},SmallCapsFont={},Scale=1.24,LetterSpace=50,WordSpace=2].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1.24]"QTCaslanOpen/OT:script=latn;language=dflt;letterspace=50;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =2\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =2\fontdimen 3\font \fontdimen 4\font =2\fontdimen
+(fontspec)             4\font 
+
+
+Package fontspec Info: Font family 'TeXGyreParliamentary-Regular(0)' created
+(fontspec)             for font 'TeXGyreParliamentary-Regular' with options
+(fontspec)             [BoldFont={},ItalicFont={},SmallCapsFont={},Mapping={tex-text},SmallCapsFeatures={LetterSpace=15,RawFeature={+smcp},},BoldFeatures
+(fontspec)             = {SmallCapsFont=
+(fontspec)             {TeXGyreParliamentary-Bold},SmallCapsFeatures={RawFeature={+smcp,}}},Numbers={OldStyle},Ligatures={TeX,Common},BoldFont={TeXGyreParliamentary-Bold},ItalicFont={TeXGyreParliamentary-Italic},BoldItalicFont={TeXGyreParliamentary-BoldItalic}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"TeXGyreParliamentary-Regular/OT:script=latn;language=dflt;+onum;+liga;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"TeXGyreParliamentary-Bold/OT:script=latn;language=dflt;+onum;+liga;mapping=tex-text;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"TeXGyreParliamentary-Bold/OT:script=latn;language=dflt;letterspace=15;+onum;+liga;+smcp;+smcp,;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"TeXGyreParliamentary-Italic/OT:script=latn;language=dflt;+onum;+liga;mapping=tex-text;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"TeXGyreParliamentary-BoldItalic/OT:script=latn;language=dflt;+onum;+liga;mapping=tex-text;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'Sabon(0)' created for font 'Sabon' with
+(fontspec)             options [BoldFont={},ItalicFont={},SmallCapsFont={}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Sabon/AAT"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'MinionPro(1)' created for font 'Minion
+(fontspec)             Pro' with options
+(fontspec)             [BoldFont={},ItalicFont={},SmallCapsFont={},LetterSpace=18,WordSpace={2},Scale=.9999,RawFeature={+smcp,+dlig,+liga}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[.9999]"Minion
+(fontspec)             Pro/OT:script=latn;language=dflt;letterspace=18;+smcp,+dlig,+liga;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =2\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =2\fontdimen 3\font \fontdimen 4\font =2\fontdimen
+(fontspec)             4\font 
+
+
+Package fontspec Info: Font family 'MinionPro(2)' created for font 'Minion
+(fontspec)             Pro' with options
+(fontspec)             [BoldFont={},ItalicFont={},SmallCapsFont={},RawFeature={+smcp,+pnum,+onum},Scale={1.001},LetterSpace=12,WordSpace=1.5,ItalicFont={Minion
+(fontspec)             Pro
+(fontspec)             Italic},ItalicFeatures={RawFeature={+smcp,+pnum,+onum},},BoldFont={Minion
+(fontspec)             Pro},BoldFeatures={RawFeature={+smcp,+pnum,+onum},},BoldItalicFont={Minion
+(fontspec)             Pro
+(fontspec)             Italic},BoldItalicFeatures={RawFeature={+smcp,+pnum,+onum},}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1.001]"Minion
+(fontspec)             Pro/OT:script=latn;language=dflt;letterspace=12;+smcp,+pnum,+onum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1.5\fontdimen 2\font \fontdimen
+(fontspec)             3\font =1.5\fontdimen 3\font \fontdimen 4\font
+(fontspec)             =1.5\fontdimen 4\font 
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1.001]"Minion
+(fontspec)             Pro/OT:script=latn;language=dflt;letterspace=12;+smcp,+pnum,+onum;+smcp,+pnum,+onum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1.5\fontdimen 2\font \fontdimen
+(fontspec)             3\font =1.5\fontdimen 3\font \fontdimen 4\font
+(fontspec)             =1.5\fontdimen 4\font 
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->s*[1.001]"Minion
+(fontspec)             Pro
+(fontspec)             Italic/OT:script=latn;language=dflt;letterspace=12;+smcp,+pnum,+onum;+smcp,+pnum,+onum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1.5\fontdimen 2\font \fontdimen
+(fontspec)             3\font =1.5\fontdimen 3\font \fontdimen 4\font
+(fontspec)             =1.5\fontdimen 4\font 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1.001]"Minion Pro
+(fontspec)             Italic/OT:script=latn;language=dflt;letterspace=12;+smcp,+pnum,+onum;+smcp,+pnum,+onum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1.5\fontdimen 2\font \fontdimen
+(fontspec)             3\font =1.5\fontdimen 3\font \fontdimen 4\font
+(fontspec)             =1.5\fontdimen 4\font 
+
+
+Package fontspec Info: Font family 'MinionProMedium(0)' created for font
+(fontspec)             'Minion Pro Medium' with options
+(fontspec)             [BoldFont={},ItalicFont={},SmallCapsFont={},RawFeature={+smcp,+pnum,+onum},Scale={1.001},LetterSpace=15,WordSpace=2.5,ItalicFont={Minion
+(fontspec)             Pro Medium
+(fontspec)             Italic},ItalicFeatures={RawFeature={+smcp,+pnum,+onum},},BoldFont={Minion
+(fontspec)             Pro
+(fontspec)             Medium},BoldFeatures={RawFeature={+smcp,+pnum,+onum},},BoldItalicFont={Minion
+(fontspec)             Pro Medium
+(fontspec)             Italic},BoldItalicFeatures={RawFeature={+smcp,+pnum,+onum},}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1.001]"Minion
+(fontspec)             Pro
+(fontspec)             Medium/OT:script=latn;language=dflt;letterspace=15;+smcp,+pnum,+onum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =2.5\fontdimen 2\font \fontdimen
+(fontspec)             3\font =2.5\fontdimen 3\font \fontdimen 4\font
+(fontspec)             =2.5\fontdimen 4\font 
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1.001]"Minion Pro
+(fontspec)             Medium/OT:script=latn;language=dflt;letterspace=15;+smcp,+pnum,+onum;+smcp,+pnum,+onum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =2.5\fontdimen 2\font \fontdimen
+(fontspec)             3\font =2.5\fontdimen 3\font \fontdimen 4\font
+(fontspec)             =2.5\fontdimen 4\font 
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->s*[1.001]"Minion
+(fontspec)             Pro Medium
+(fontspec)             Italic/OT:script=latn;language=dflt;letterspace=15;+smcp,+pnum,+onum;+smcp,+pnum,+onum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =2.5\fontdimen 2\font \fontdimen
+(fontspec)             3\font =2.5\fontdimen 3\font \fontdimen 4\font
+(fontspec)             =2.5\fontdimen 4\font 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1.001]"Minion Pro Medium
+(fontspec)             Italic/OT:script=latn;language=dflt;letterspace=15;+smcp,+pnum,+onum;+smcp,+pnum,+onum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =2.5\fontdimen 2\font \fontdimen
+(fontspec)             3\font =2.5\fontdimen 3\font \fontdimen 4\font
+(fontspec)             =2.5\fontdimen 4\font 
+
+
+Package fontspec Info: Font family 'MinionProMedium(1)' created for font
+(fontspec)             'Minion Pro Medium' with options
+(fontspec)             [BoldFont={},ItalicFont={},SmallCapsFont={},ItalicFont={Minion
+(fontspec)             Pro Medium Italic},ItalicFeatures={
+(fontspec)             RawFeature={+liga,+pnum,+onum}, SmallCapsFont={Minion
+(fontspec)             Pro Medium Italic}, SmallCapsFeatures={LetterSpace=15,
+(fontspec)             RawFeature={+pnum,+onum,+smcp},},
+(fontspec)             },RawFeature={+liga,+pnum,+onum},BoldFont={Minion Pro
+(fontspec)             Bold},SmallCapsFont={Minion Pro
+(fontspec)             Medium},SmallCapsFeatures={LetterSpace=15,
+(fontspec)             RawFeature={+pnum,+onum,+smcp},},BoldItalicFont={Minion
+(fontspec)             Pro Bold Italic}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Minion Pro
+(fontspec)             Medium/OT:script=latn;language=dflt;+liga,+pnum,+onum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: <->"Minion Pro
+(fontspec)             Medium/OT:script=latn;language=dflt;letterspace=15;+liga,+pnum,+onum;+pnum,+onum,+smcp;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Minion Pro
+(fontspec)             Bold/OT:script=latn;language=dflt;+liga,+pnum,+onum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: <->"Minion
+(fontspec)             Pro
+(fontspec)             Medium/OT:script=latn;language=dflt;letterspace=15;+liga,+pnum,+onum;+pnum,+onum,+smcp;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Minion Pro
+(fontspec)             Medium
+(fontspec)             Italic/OT:script=latn;language=dflt;+liga,+pnum,+onum;+liga,+pnum,+onum;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"Minion Pro Medium
+(fontspec)             Italic/OT:script=latn;language=dflt;letterspace=15;letterspace=15;+liga,+pnum,+onum;+liga,+pnum,+onum;+pnum,+onum,+smcp;+pnum,+onum,+smcp;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Minion Pro
+(fontspec)             Bold
+(fontspec)             Italic/OT:script=latn;language=dflt;+liga,+pnum,+onum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"Minion Pro
+(fontspec)             Medium/OT:script=latn;language=dflt;letterspace=15;+liga,+pnum,+onum;+pnum,+onum,+smcp;"
+
+
+Package fontspec Info: Font family 'MyriadPro(0)' created for font 'Myriad
+(fontspec)             Pro' with options
+(fontspec)             [BoldFont={},ItalicFont={},SmallCapsFont={},RawFeature={+calt,+liga,+hlig,+onum},ItalicFont={Myriad
+(fontspec)             Pro
+(fontspec)             Italic},ItalicFeatures={RawFeature={+calt,+liga,+hlig,+onum,+swsh},},BoldFont={Myriad
+(fontspec)             Pro Semibold},BoldItalicFont={Myriad Pro Semibold
+(fontspec)             Italic}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Myriad
+(fontspec)             Pro/OT:script=latn;language=dflt;+calt,+liga,+hlig,+onum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Myriad Pro
+(fontspec)             Semibold/OT:script=latn;language=dflt;+calt,+liga,+hlig,+onum;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Myriad Pro
+(fontspec)             Italic/OT:script=latn;language=dflt;+calt,+liga,+hlig,+onum;+calt,+liga,+hlig,+onum,+swsh;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Myriad Pro
+(fontspec)             Semibold
+(fontspec)             Italic/OT:script=latn;language=dflt;+calt,+liga,+hlig,+onum;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'MinionPro(3)' created for font 'Minion
+(fontspec)             Pro' with options
+(fontspec)             [BoldFont={},ItalicFont={},SmallCapsFont={}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Minion
+(fontspec)             Pro/OT:script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'MinionProItalic(0)' created for font
+(fontspec)             'Minion Pro Italic' with options
+(fontspec)             [BoldFont={},ItalicFont={},SmallCapsFont={}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Minion Pro
+(fontspec)             Italic/OT:script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Could not resolve font "Latin Modern Mono/B" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: Font family 'LatinModernMono(0)' created for font
+(fontspec)             'Latin Modern Mono' with options
+(fontspec)             [WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=WordSpace,LetterSpace=10].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Latin Modern
+(fontspec)             Mono/OT:script=latn;language=dflt;letterspace=10;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Latin Modern
+(fontspec)             Mono/I/OT:script=latn;language=dflt;letterspace=10;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Latin
+(fontspec)             Modern
+(fontspec)             Mono/BI/OT:script=latn;language=dflt;letterspace=10;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+
+
+Package fontspec Info: Font family 'EUAlbertina(0)' created for font
+(fontspec)             'EUAlbertina' with options
+(fontspec)             [BoldFont={},ItalicFont={},SmallCapsFont={},ItalicFont={EUAlbertina-ReguItal},BoldFont={EUAlbertina-Bold}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"EUAlbertina/OT:language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"EUAlbertina-Bold/OT:language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"EUAlbertina-ReguItal/OT:language=dflt;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"EUAlbertina-ReguItal/B/OT:language=dflt;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'StardosStencilBold(0)' created for font
+(fontspec)             'Stardos Stencil Bold' with options
+(fontspec)             [BoldFont={},ItalicFont={},SmallCapsFont={},LetterSpace=20,WordSpace=5].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Stardos Stencil
+(fontspec)             Bold/AAT:letterspace=20;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =5\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =5\fontdimen 3\font \fontdimen 4\font =5\fontdimen
+(fontspec)             4\font 
+
+
+Package fontspec Info: Font family 'ChalkLineOutline(0)' created for font
+(fontspec)             'Chalk Line Outline' with options
+(fontspec)             [BoldFont={},ItalicFont={},SmallCapsFont={},LetterSpace=20,WordSpace=5].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Chalk Line
+(fontspec)             Outline/OT:language=dflt;letterspace=20;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =5\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =5\fontdimen 3\font \fontdimen 4\font =5\fontdimen
+(fontspec)             4\font 
+
+
+Package fontspec Info: Font family 'knots(0)' created for font 'knots' with
+(fontspec)             options [BoldFont={},ItalicFont={},SmallCapsFont={}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"knots/AAT"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'SourceCodeProBlack(0)' created for font
+(fontspec)             'Source Code Pro Black' with options
+(fontspec)             [BoldFont={},ItalicFont={},SmallCapsFont={},Mapping=tex-text,Scale=.971,RawFeature={
+(fontspec)             +ss03, +ss02 },LetterSpace=15,WordSpace=2].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[.971]"Source
+(fontspec)             Code Pro
+(fontspec)             Black/OT:script=latn;language=dflt;letterspace=15;
+(fontspec)             +ss03, +ss02 ;mapping=tex-text;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =2\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =2\fontdimen 3\font \fontdimen 4\font =2\fontdimen
+(fontspec)             4\font 
+
+
+Package fontspec Info: Font family 'LibertinusSerif(0)' created for font
+(fontspec)             'Libertinus Serif' with options
+(fontspec)             [BoldFont={},ItalicFont={},SmallCapsFont={},RawFeature={+ss05,+dlig,+calt,+ss01,+pnum,+onum}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Libertinus
+(fontspec)             Serif/OT:script=latn;language=dflt;+ss05,+dlig,+calt,+ss01,+pnum,+onum;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'Symbola(0)' created for font 'Symbola'
+(fontspec)             with options
+(fontspec)             [BoldFont={},ItalicFont={},SmallCapsFont={}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"Symbola/OT:script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
+Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
+(fontspec)             New Roman' with options
+(fontspec)             [BoldFont={},ItalicFont={},SmallCapsFont={},RawFeature={+onum,+pnum,+liga,+dlig}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/OT:script=latn;language=dflt;+onum,+pnum,+liga,+dlig;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/tools/array.sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen147
+\ar@mcellbox=\box51
+\extrarowheight=\dimen148
+\NC@list=\toks17
+\extratabsurround=\skip50
+\backup@length=\skip51
+\ar@cellbox=\box52
+) (./bluebook.sty
+Package: bluebook 2011/11/11 Legal Bluebook-style Citations
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (./multind.sty) (/usr/local/texlive/2021/texmf-dist/tex/generic/xstring/xstring.sty (/usr/local/texlive/2021/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count271
+Invalid UTF-8 byte or sequence at line 35 replaced by U+FFFD.
+\decimalpart=\count272
+Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 83 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 86 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 114 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 120 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 125 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 183 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 184 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 189 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 189 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 190 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 190 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 193 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 221 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 221 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 266 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 284 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 295 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 300 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 300 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 301 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 301 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 301 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 302 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 303 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 333 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 334 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 334 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 334 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 406 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 406 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 409 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 410 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 428 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 434 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 457 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 457 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 464 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 464 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 466 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 466 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 541 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 541 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 541 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 586 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 586 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 588 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 588 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 595 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 597 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 599 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 602 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 605 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 605 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 610 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 615 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 632 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 632 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 633 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 635 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 637 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 647 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 653 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 678 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 700 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 705 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 715 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 715 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 715 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 719 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 732 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 732 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 741 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 741 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 742 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 742 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 762 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 773 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 773 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 774 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 774 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 774 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 797 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 797 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 810 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 824 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 824 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 831 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 838 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 838 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 846 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 846 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 861 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 862 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 864 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 864 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 908 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 909 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 909 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 934 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 934 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 936 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 936 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 940 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 940 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 962 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 962 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 964 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 965 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1006 replaced by U+FFFD.
+)
+Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@@bbSequentialIds=\count273
+)
+\indexindentsize=\skip52
+\indexrightmargin=\skip53
+\c@@passimcount=\count274
+\Case@idxfile=\write3
+\openout3 = `Case.idx'.
+
+
+Writing index file Case.idx 
+\Statute@idxfile=\write4
+\openout4 = `Statute.idx'.
+
+Writing index file Statute.idx 
+\Other@idxfile=\write5
+\openout5 = `Other.idx'.
+
+Writing index file Other.idx 
+(./titlepage.tex)) (./format.tex (/usr/local/texlive/2021/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip54
+\f@nch@O@elh=\skip55
+\f@nch@O@erh=\skip56
+\f@nch@O@olh=\skip57
+\f@nch@O@orh=\skip58
+\f@nch@O@elf=\skip59
+\f@nch@O@erf=\skip60
+\f@nch@O@olf=\skip61
+\f@nch@O@orf=\skip62
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
+\FN@temptoken=\toks18
+\footnotemargin=\dimen149
+\c@pp@next@reset=\count275
+Package footmisc Info: Declaring symbol style bringhurst on input line 855.
+Package footmisc Info: Declaring symbol style chicago on input line 863.
+Package footmisc Info: Declaring symbol style wiley on input line 872.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924.
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2021-03-03 v2.3 150 paragraphs of Lorem Ipsum dummy text
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
+File: lipsum.ltd.tex 2021-03-03 v2.3 The Lorem ipsum dummy text
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/kantlipsum/kantlipsum.sty
+Package: kantlipsum 2019/07/23 v0.8 Generate text in Kantian style
+\l__kgl_start_int=\count276
+\l__kgl_end_int=\count277
+
+Package kantlipsum Info: The package provides paragraphs 1 to 164. Values
+(kantlipsum)             outside this range will be ignored.
+
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count278
+\Gm@cntv=\count279
+\c@Gm@tempcnt=\count280
+\Gm@bindingoffset=\dimen150
+\Gm@wd@mp=\dimen151
+\Gm@odd@mp=\dimen152
+\Gm@even@mp=\dimen153
+\Gm@layoutwidth=\dimen154
+\Gm@layoutheight=\dimen155
+\Gm@layouthoffset=\dimen156
+\Gm@layoutvoffset=\dimen157
+\Gm@dimlist=\toks19
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/crop/crop.sty
+Package: crop 2017/11/19 1.10 crop marks (mf)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+\stockwidth=\dimen158
+\stockheight=\dimen159
+\CROP@index=\count281
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: xetex.def on input line 147.
+)
+\CROP@offset=\count282
+Package crop Info: Local config file crop.cfg used on input line 622.
+ (/usr/local/texlive/2021/texmf-dist/tex/xelatex/xetexconfig/crop.cfg)) (/usr/local/texlive/2021/texmf-dist/tex/latex/leading/leading.sty
+Package: leading 2008/12/11 v0.3 Define leading length
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count283
+\calc@Bcount=\count284
+\calc@Adimen=\dimen160
+\calc@Bdimen=\dimen161
+\calc@Askip=\skip63
+\calc@Bskip=\skip64
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count285
+\calc@Cskip=\skip65
+))) (/usr/local/texlive/2021/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+) (/usr/local/texlive/2021/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2021/05/16 3.59 The Babel package
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2021/05/16 3.59 Babel common definitions
+\babel@savecnt=\count286
+\U@D=\dimen162
+\l@unhyphenated=\language87
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/babel/xebabel.def (/usr/local/texlive/2021/texmf-dist/tex/generic/babel/txtbabel.def))
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count287
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/babel-english/american.ldf
+Language: american 2017/06/06 v3.3r English support from the babel system
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language21). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language21). Reported on input line 108.
+))) (./authorities.tex) (./variables.tex) (/Users/ezgranet/Documents/GitHub/latex-amicus/.texpadtmp/main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 17.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 17.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 17.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 17.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 17.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 17.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 17.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 17.
+LaTeX Font Info:    Redeclaring math accent \check on input line 17.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 17.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 17.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 17.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 17.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 17.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 17.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/TeXGyreScholaX-Regular(0)/m/n on input line 17.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 17.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/TeXGyreScholaX-Regular(0)/m/n on input line 17.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/TeXGyreScholaX-Regular(0)/m/n --> TU/TeXGyreScholaX-Regular(0)/m/n on input line 17.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/TeXGyreScholaX-Regular(0)/m/it on input line 17.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/TeXGyreScholaX-Regular(0)/b/n on input line 17.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 17.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/LatinModernMono(0)/m/n on input line 17.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/TeXGyreScholaX-Regular(0)/m/n --> TU/TeXGyreScholaX-Regular(0)/b/n on input line 17.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/TeXGyreScholaX-Regular(0)/b/it on input line 17.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 17.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/LatinModernMono(0)/b/n on input line 17.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* bindingoffset: 14.22636pt
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 283.8874pt, 72.26999pt)
+* v-part:(T,H,B)=(76.78687pt, 514.92377pt, 76.78687pt)
+* \paperwidth=442.65375pt
+* \paperheight=668.4975pt
+* \textwidth=283.8874pt
+* \textheight=514.92377pt
+* \oddsidemargin=14.22636pt
+* \evensidemargin=0.0pt
+* \topmargin=-32.48312pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package crop Info: using `pdftex' graphics driver on input line 17.
+
+Overfull \hbox (4.24496pt too wide) in paragraph at lines 19--19
+ [][] 
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 19.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 19.
+[1
+
+] [2] (/Users/ezgranet/Documents/GitHub/latex-amicus/.texpadtmp/main.toc
+Overfull \hbox (17.8006pt too wide) in paragraph at lines 9--9
+ [] []\TU/TeXGyreScholaX-Regular(0)/m/n/12 Courts violate the First Amendment when 
+ []
+
+
+Overfull \hbox (6.4966pt too wide) in paragraph at lines 10--10
+ [] []\TU/TeXGyreScholaX-Regular(0)/m/n/12 “Typesetters” are those persons held out 
+ []
+
+)
+\tf@toc=\write6
+\openout6 = `main.toc'.
+
+ [1] (./Case.ind [2])
+\traux=\read3
+ (./Statute.ind)
+\traux=\read4
+ (./Other.ind [3]) [4] (./brief-content.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 3.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[1]
+Underfull \hbox (badness 1253) in paragraph at lines 5--5
+[]\TU/TeXGyreScholaX-Regular(0)/m/n/12 Quisque ullamcorper placerat ipsum. Cras
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[2]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[3]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[4]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[5]
+Underfull \hbox (badness 3009) in paragraph at lines 38--39
+[]\TU/TeXGyreScholaX-Regular(0)/m/n/12 Donec a nibh ut elit vestibulum tristique.
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6]
+Underfull \hbox (badness 1596) in paragraph at lines 40--41
+[]\TU/TeXGyreScholaX-Regular(0)/m/n/12 Sed ultrices, pede eu placerat auctor, ante
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 50--51
+\TU/TeXGyreScholaX-Regular(0)/m/n/12 iscing elit. Ut pede sem, tempus ut, porttitor
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[10]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[11]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[12]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[13])
+File: typed-signature.png Graphic file (type bmp)
+<typed-signature.png>
+
+Overfull \hbox (8.27525pt too wide) in paragraph at lines 38--38
+ [][]
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[14
+\indexentry{{\em  E.E.O.C. v. Hosanna-Tabor Evangelical Lutheran Press and School \emph  {(Hosanna-Tabor I)}},\penalty -10\ 582 F. Supp. 2d~ 881 (E.D. Mich. 2008)}{14}
+runsystem(makeindex -r -s lawcitations.ist Case)...executed.
+
+runsystem(makeindex -L -r -s lawcitations.ist Statute)...executed.
+
+runsystem(makeindex -r -s lawcitations.ist Other)...executed.
+
+] (/Users/ezgranet/Documents/GitHub/latex-amicus/.texpadtmp/main.aux) ) 
+Here is how much of TeX's memory you used:
+ 7688 strings out of 476683
+ 178470 string characters out of 5817907
+ 1298507 words of memory out of 5000000
+ 27613 multiletter control sequences out of 15000+600000
+ 408089 words of font info for 153 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 93i,12n,116p,541b,336s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on /Users/ezgranet/Documents/GitHub/latex-amicus/.texpadtmp/main.pdf (20 pages).

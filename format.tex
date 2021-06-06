@@ -1,0 +1,58 @@
+\usepackage{fancyhdr}
+\fancyhf{}
+\fancyhf[rh]{}% right header
+\fancyhf[lh]{}% left header
+\fancyhf[ch]{\thepage}% centre header
+\renewcommand\headrulewidth{0pt}% remove if you want a rule beneath the header
+\fancyhf[lf]{}% left footer
+\fancyhf[cf]{}% centre
+\fancyhf[rf]{}% right
+\usepackage{footmisc}
+%\usepackage{hanging}
+%\usepackage[bottom,hang]{footmisc}
+%\makeatletter
+% \renewcommand{\@makefntext}[1]{%
+%\parindent3ex\
+%\noindent\normalfont\parbox{3ex}{\@thefnmark}#1}
+%\makeatother
+\renewcommand{\footnotelayout}{\hspace{2em}}% Here you can modify the spacing between the footnote number and the text of footnote; keep this value and \hangfootparindent value the same
+
+\usepackage{lipsum}
+\usepackage{xparse}
+
+% store a big set of sentences
+\unpacklipsum[1-100] % it was \UnpackLipsum before version 2.0
+
+\ExplSyntaxOn
+% unpack \lipsumexp
+\seq_new:N \g_lipsum_sentences_seq
+\cs_generate_variant:Nn \seq_set_split:Nnn { NnV }
+\seq_gset_split:NnV \g_lipsum_sentences_seq {.~} \lipsumexp
+
+\NewDocumentCommand{\lipsumsentence}{>{\SplitArgument{1}{-}}O{1-7}}
+ {
+  \lipsumsentenceaux #1
+ }
+\NewDocumentCommand{\lipsumsentenceaux}{mm}
+ {
+  \IfNoValueTF { #2 }
+   {
+    \seq_item:Nn \g_lipsum_sentences_seq { #1 }.~
+   }
+   {
+    \int_step_inline:nnnn { #1 } { 1 } { #2 }
+     {
+      \seq_item:Nn \g_lipsum_sentences_seq { ##1 }.~
+     }
+   }
+ }
+\ExplSyntaxOff
+\newcommand{\lsp}[1]{\lipsumsentence[#1]}
+
+\usepackage{kantlipsum}
+%\usepackage[hang]{footmisc}
+\usepackage[paperwidth=6.125in,paperheight=9.25in,left=1in,right=1in,top=1.0625in,bottom=1.0625in,bindingoffset=5mm]{geometry}
+\usepackage[letter,center,noinfo,cam]{crop}
+
+\usepackage{leading}
+\leading{14pt} 

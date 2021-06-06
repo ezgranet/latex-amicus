@@ -1,0 +1,25 @@
+\XeTeXinterchartokenstate=1
+\newXeTeXintercharclass\Tight
+\newXeTeXintercharclass\Dashes
+\XeTeXcharclass`—=\Dashes
+\XeTeXinterchartoks 0 \Dashes={\kern0.125em }
+\XeTeXinterchartoks\Dashes 0={\kern0.125em}\usepackage{fontspec}
+\usepackage{xpatch}
+\setromanfont[RawFeature={+liga,+dlig}, ItalicFont={TeXGyreScholaX-Italic},ItalicFeatures={
+SmallCapsFont={TeXGyreScholaX-Italic},
+SmallCapsFeatures={LetterSpace= 10, RawFeature={+smcp}},
+},
+BoldFont={TeXGyreScholaX-Bold},
+SmallCapsFont={TeXGyreScholaX-Regular},
+SmallCapsFeatures={LetterSpace= 10, RawFeature={+smcp}},
+]{TeXGyreScholaX-Regular}
+\newfontface\lm[SmallCapsFont={Latin Modern Roman Caps 10 Regular},  SmallCapsFeatures = {
+                            LetterSpace  =  15,
+                            WordSpace  =  { 1.5, 1.5, 1.5},
+                          },
+]{Latin Modern Roman 12 Regular}
+\newfontface\blcklttr{FrederickText}
+\xapptocmd{\scshape}
+  {\spaceskip=2\fontdimen2\font plus 2\fontdimen3\font minus \fontdimen2\font
+   \xspaceskip=2\fontdimen3\font}
+  {}{}
