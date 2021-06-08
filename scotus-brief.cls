@@ -6,7 +6,6 @@
 
 
 
-\input{/Users/ezgranet/Desktop/stationery/ezgranet-fonts/ezgranet-fonts-century.tex}
 \RequirePackage{array}
 \RequirePackage[casesupra]{bluebook}
 \newcommand{\@RunMakeIndex}{%
@@ -24,6 +23,8 @@
 	\@RunMakeIndex%
 }
 
+\input{scotus-brief-fonts}
+
 %==============================================================================
 %% \subsection{Sectioning}
 %% We redefine formatting for section commands and the associated numbering. By default,
@@ -31,7 +32,6 @@
 %% _\subsection_ is bold and left-aligned with a roman numeral; _\subsubsection_ is bold, left-indented, and with a letter
 %% for ordering. (Note that the formatting in the table of contents differs somewhat, see below). By default, 
 %==============================================================================
-
 %Syntax for @startsection{name}{level}{indent}{abovespace}{belowspace}{format}
 %The 4th argument is negative to suppress indenting after the section heading
 \def\section{\@startsection{section}{2}{0pt}{-10pt}{2pt}{\centering\normalsize\bfseries}}%
@@ -42,7 +42,7 @@
 \renewcommand{\thesection}{\hspace{-1em}}
 \renewcommand{\thesubsection}{\Roman{subsection}}
 \renewcommand{\thesubsubsection}{\Alph{subsubsection}.}
-
+\RequirePackage{graphicx}
 %==============================================================================
 %%
 %% \subsection{Configuring the Index / Table of Authorities}
@@ -331,6 +331,8 @@
 \newcommand*{\circuit}[1]{\def\@circuit{#1}}
 \newcommand{\court}[1]{\def\@court{#1}}
 \newcommand*{\brieffor}[1]{\def\@brieffor{#1}}
+\newcommand*{\briefas}[1]{\def\@briefas{#1}}
+
 \newcommand{\address}[1]{\def\@address{#1}}
 
 
@@ -349,13 +351,15 @@
 \def\@address{\@latex@warning{No \noexpand\address given}}
 
 \newcommand{\questionpresented}[1]{\def\@questionpresented{#1}}
+\newcommand{\relatedproceedings}[1]{\def\@relatedproceedings{#1}}
+
 \input{titlepage}
 \newcommand{\printsignature}{\hfill\begin{minipage}[t]{0.48\textwidth}
 \begin{flushright}
 Respectfully submitted,\\
 \includegraphics[width=2in]{\@signature}\\
 \@author\\
-\@date
+\@mydate
 \end{flushright}
 \end{minipage}
 \end{document}}
@@ -409,18 +413,48 @@ Respectfully submitted,\\
 
 \pagestyle{romanparen}
 \pagenumbering{roman}
-%\section{Question Presented}
-%
-%\@questionpresented
-%\newpage
+\section{Question Presented}
 
+\@questionpresented
+\newpage
+\section{Related Proceedings}
+\setlength{\parindent}{0em}
+\@relatedproceedings
+\newpage
 \section*{Table of Contents}
 \tableofcontents
 \newpage
 \tableofauthorities
-
 \pagestyle{plain}
 \pagenumbering{arabic}
+\thispagestyle{empty}
+\begin{center}
+\Large\blcklttr In the Supreme Court of the United States\normalfont
+
+\smallrule
+
+\normalsize\@docket
+
+\smallrule
+
+
+\scshape\@firstparty, \@firstpartytitle,
+
+\normalfont\textit{v}.
+
+\scshape\@secondparty, \@secondpartytitle.
+
+\smallrule
+
+\MakeLowercase{\textsc{On Writ of \textit{Certioriari} to the \\United States Court of Appeals\\ for the \@circuit\ Circuit}} 
+
+\smallrule
+
+\MakeUppercase{\scshape\bfseries Brief for \@brieffor\\ as \textit{\@briefas}\\ supporting \@insupportof}
+\end{center}
+
+\smallrule
+
 }
 
 %%
