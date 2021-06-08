@@ -2,9 +2,10 @@
 
 %The command \makeandletter turns the ampersand into a printable character, rather than a special alignment tab
 \makeandletter
-\newcommand{\mycase}[6]{%
-\newcase{#1}{#2\emph{ v. }#3}
-	{#4}{#5}{(#6)}%
+
+
+\newcommand{\mycase}[6]{
+\newcase{#1}{#2\emph{ v. }#3}{#4}{#5}{#6}%
 }
 %We use \newcase because the \emph will throw off parsing in \mycase
 \newcase{Hosanna-Tabor I}{E.E.O.C.\emph{}{}Hosanna-Tabor Evangelical Lutheran Press and School \emph{(Hosanna-Tabor I)}}
@@ -19,10 +20,10 @@
 	{520 F.3d}{198}{2d Cir. 2008}
 \mycase{McClure}{McClure}{Salvation Army}{460 F.2d}{553}{5th Cir. 1972}
 \mycase{Gannon}{Petruska}{Calvin Presbyterian Press}{375 F. 3d}{ 951}{9th Cir. 2004}
-\mycase{Petruska}{Natal}{Christian and Missionary Alliance}{878 F.2d}{ 1575}{(1st Cir. 1989}
-\mycase{Natal}{Natal}{Christian and Missionary Alliance}{878 F.2d}{1575}{(1st Cir. 1989}
-\mycase{Lewis}{Lewis}{Seventh Day Adventists Lake Region Conf.}{978 F.2d}{940}{(6th Cir. 1992}
-\mycase{Catholic Univ.}{E.E.O.C.}{Catholic Univ. of America}{83 F.3d}{455}{(D.C. Cir. 1996}
+\mycase{Petruska}{Natal}{Christian and Missionary Alliance}{878 F.2d}{ 1575}{1st Cir. 1989}
+\mycase{Natal}{Natal}{Christian and Missionary Alliance}{878 F.2d}{1575}{1st Cir. 1989}
+\mycase{Lewis}{Lewis}{Seventh Day Adventists Lake Region Conf.}{978 F.2d}{940}{6th Cir. 1992}
+\mycase{Catholic Univ.}{E.E.O.C.}{Catholic Univ. of America}{83 F.3d}{455}{D.C. Cir. 1996}
 \mycase{Presbyterian Press}{Presbyterian Press}{Hull Press}{393 U.S.}{440}{1969} 
 \mycase{Elvig}{Schmesbyterian Press}{Hull Press}{393 U.S.}{440}{1969} 
 

@@ -9,10 +9,10 @@
 \usepackage{tikz}
 \usepackage{enumitem}
 \newenvironment{nostat}{\begin{enumerate}[nosep,leftmargin=0.5in,labelindent=5pt,itemindent=0pt,label=]}{\end{enumerate}}
-\newcommand{\relproc}[2]{\noindent \textsc{#1} 
+\newcommand{\relproc}[2]{\noindent \textsc{#1}:
 
 \begin{nostat}
-	\item \cite{#2}:
+	\item \cite{#2}.
 	\end{nostat}\medskip}
 
 
@@ -154,13 +154,13 @@
 %% \noindent _\tableofauthorities_ --- Print the table of authorities.
 %%
 \newcommand{\tableofauthorities}{%
-{%
-\singlespacing
-\section{Table of Authorities} \pagestyle{toa}\thispagestyle{romanparen}%
+{\bodyfalse%
+\section{Table of Authorities} \pagestyle{toa}
+ \thispagestyle{romanparen}%
 	\noindent\sc \@caseindextitle\hfill\rm Page\par
 	\vspace{6pt}
 	\everypar={\mark{\@caseindextitle---Cont.}}
-	\printindex{Case}
+\printindex{Case}\normalfont
 %
 	\iffileexists{Statute.ind}{%
 		\everypar={\mark{\@statutesindextitle---Cont.}}
@@ -312,7 +312,9 @@
 %%
 %==============================================================================
 
-\newcommand{\sectionline}{\vbox{\baselineskip=1.5pt \hbox{\rule{\linewidth}{.7pt}}\hbox{\rule{\linewidth}{.7pt}}}}
+\newcommand{\sectionline}{\vbox{\baselineskip=2pt 
+\hbox{\rule{\linewidth}{.7pt}}
+\hbox{\rule{\linewidth}{.7pt}}\hbox{\rule{\linewidth}{.7pt}}}}
 \newcommand{\smallrule}{%
   \ \vspace{.5\baselineskip}\hspace{\fill}
   {\color{black}
@@ -449,14 +451,14 @@ Respectfully submitted,\\
 \end{flushleft}
 \newpage
 \section*{Table of Contents}
-\tableofcontents
-\newpage
+\tableofcontents\newpage
 \tableofauthorities
 \pagestyle{plain}
 \pagenumbering{arabic}
 \thispagestyle{empty}
 \begin{center}
-\Large\blcklttr In the Supreme Court of the United States\normalfont
+\textsc{in the}\\
+\large\blcklttr Supreme Court of the United States\normalfont
 
 \smallrule
 
@@ -473,11 +475,11 @@ Respectfully submitted,\\
 
 \smallrule
 
-\MakeLowercase{\textsc{On Writ of \textit{Certioriari} to the \\United States Court of Appeals\\ for the \@circuit\ Circuit}} 
+\normalfont\footnotesize On Writ of \textit{Certioriari} to the \\United States Court of Appeals\\ for the \@circuit\ Circuit\normalsize
 
 \smallrule
 
-\MakeUppercase{\scshape\bfseries Brief for \@brieffor\\ as \textit{\@briefas}\\ supporting \@insupportof}
+\MakeLowercase{\scshape Brief for \@brieffor\\ as \textit{\@briefas}\\ supporting \@insupportof}
 
 \smallrule
 

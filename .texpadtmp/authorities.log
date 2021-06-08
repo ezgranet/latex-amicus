@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdftex 2021.4.17)  7 JUN 2021 20:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdftex 2021.4.17)  7 JUN 2021 22:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -15,8 +15,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ./authorities.tex:7: Undefined control sequence.
-l.7 \newcase
-            {Hosanna-Tabor I}{E.E.O.C.\emph{ v. }Hosanna-Tabor Evangelical L...
+l.7 \newcommand
+               {\mycase}[6]{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -24,16 +24,109 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ./authorities.tex:7: Undefined control sequence.
-l.7 \newcase{Hosanna-Tabor I}{E.E.O.C.\emph
-                                           { v. }Hosanna-Tabor Evangelical L...
+l.7 \newcommand{\mycase
+                       }[6]{
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./authorities.tex:7: Undefined control sequence.
-l.7 ...Evangelical Lutheran Press and School \emph
+./authorities.tex:8: Undefined control sequence.
+l.8 \newcase
+            {#1}{#2\emph{ v. }#3}{{\upshape #4}}{#5}{#6}%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./authorities.tex:8: You can't use `macro parameter character #' in horizontal mode.
+l.8 \newcase{#
+              1}{#2\emph{ v. }#3}{{\upshape #4}}{#5}{#6}%
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./authorities.tex:8: You can't use `macro parameter character #' in horizontal mode.
+l.8 \newcase{#1}{#
+                  2\emph{ v. }#3}{{\upshape #4}}{#5}{#6}%
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./authorities.tex:8: Undefined control sequence.
+l.8 \newcase{#1}{#2\emph
+                        { v. }#3}{{\upshape #4}}{#5}{#6}%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./authorities.tex:8: You can't use `macro parameter character #' in horizontal mode.
+l.8 \newcase{#1}{#2\emph{ v. }#
+                               3}{{\upshape #4}}{#5}{#6}%
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./authorities.tex:8: Undefined control sequence.
+l.8 \newcase{#1}{#2\emph{ v. }#3}{{\upshape
+                                            #4}}{#5}{#6}%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./authorities.tex:8: You can't use `macro parameter character #' in horizontal mode.
+l.8 \newcase{#1}{#2\emph{ v. }#3}{{\upshape #
+                                             4}}{#5}{#6}%
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./authorities.tex:8: You can't use `macro parameter character #' in horizontal mode.
+l.8 \newcase{#1}{#2\emph{ v. }#3}{{\upshape #4}}{#
+                                                  5}{#6}%
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./authorities.tex:8: You can't use `macro parameter character #' in horizontal mode.
+l.8 ...e{#1}{#2\emph{ v. }#3}{{\upshape #4}}{#5}{#
+                                                  6}%
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./authorities.tex:11: Undefined control sequence.
+l.11 \newcase
+             {Hosanna-Tabor I}{E.E.O.C.\emph{}{}Hosanna-Tabor Evangelical Lu...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./authorities.tex:11: Undefined control sequence.
+l.11 \newcase{Hosanna-Tabor I}{E.E.O.C.\emph
+                                            {}{}Hosanna-Tabor Evangelical Lu...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./authorities.tex:11: Undefined control sequence.
+l.11 ...vangelical Lutheran Press and School \emph
                                                   {(Hosanna-Tabor I)}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -41,26 +134,26 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./authorities.tex:9: Undefined control sequence.
-l.9 \newcase
-            {Hosanna-Tabor II}{E.E.O.C.\emph{ v. }Hosanna-Tabor Evangelical ...
+./authorities.tex:13: Undefined control sequence.
+l.13 \newcase
+             {Hosanna-Tabor II}{E.E.O.C.\emph{}{}Hosanna-Tabor Evangelical L...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./authorities.tex:9: Undefined control sequence.
-l.9 \newcase{Hosanna-Tabor II}{E.E.O.C.\emph
-                                            { v. }Hosanna-Tabor Evangelical ...
+./authorities.tex:13: Undefined control sequence.
+l.13 \newcase{Hosanna-Tabor II}{E.E.O.C.\emph
+                                             {}{}Hosanna-Tabor Evangelical L...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./authorities.tex:9: Undefined control sequence.
-l.9 ...Evangelical Lutheran Press and School \emph
+./authorities.tex:13: Undefined control sequence.
+l.13 ...vangelical Lutheran Press and School \emph
                                                   {(Hosanna-Tabor II)}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -68,54 +161,21 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./authorities.tex:16: Undefined control sequence.
-l.16 \newcase
-             {Rweyemamu}{Rweyemamu\emph{ v. }Cote, 520 F.3d 198 (2d Cir. 2008)}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-./authorities.tex:16: Undefined control sequence.
-l.16 \newcase{Rweyemamu}{Rweyemamu\emph
-                                       { v. }Cote, 520 F.3d 198 (2d Cir. 2008)}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Overfull \hbox (4.29224pt too wide) in paragraph at lines 7--15
+[]\tenrm [6] 12 v. 3456 Hosanna-Tabor IE.E.O.C.Hosanna-Tabor Evan-gel-i-cal Lutheran Press and School (Hosanna-|
 
-./authorities.tex:17: Undefined control sequence.
-l.17 \citecase
-              {McClure v. Salvation Army, 460 F.2d 553 (5th Cir. 1972)}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./authorities.tex:18: Undefined control sequence.
-l.18 \citecase
-              {Petruska v. Gannon Univ., 462 F.3d 294 (3d Cir. 2006)}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm [
+.\tenrm 6
+.\tenrm ]
+.\glue 3.33333 plus 1.66666 minus 1.11111
+.etc.
 
 ./authorities.tex:19: Undefined control sequence.
-l.19 \citecase
-              {Elvig v. Calvin Presbyterian Press, 375 F. 3d 951 (9th Cir. 2...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./authorities.tex:20: Undefined control sequence.
-l.20 \citecase
-              {Natal v. Christian and Missionary Alliance, 878 F.2d 1575 (1s...
+l.19 \mycase
+            {Rweyemamu}{Rweyemamu}{Cote}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -123,8 +183,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ./authorities.tex:21: Undefined control sequence.
-l.21 \citecase
-              {Lewis v. Seventh Day Adventists Lake Region Conf., 978 F.2d 9...
+l.21 \mycase
+            {McClure}{McClure}{Salvation Army}{460 F.2d}{553}{5th Cir. 1972}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -132,8 +192,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ./authorities.tex:22: Undefined control sequence.
-l.22 \citecase
-              [Catholic Univ.]{E.E.O.C. v. Catholic Univ. of America, 83 F.3...
+l.22 \mycase
+            {Gannon}{Petruska}{Calvin Presbyterian Press}{375 F. 3d}{ 951}{9...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -141,8 +201,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ./authorities.tex:23: Undefined control sequence.
-l.23 \citecase
-              {Presbyterian Press v. Hull Press, 393 U.S. 440 (1969)}
+l.23 \mycase
+            {Petruska}{Natal}{Christian and Missionary Alliance}{878 F.2d}{ ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -150,8 +210,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ./authorities.tex:24: Undefined control sequence.
-l.24 \citecase
-              [Milivojevich]{Serbian Eastern Orthodox Diocese for the USA an...
+l.24 \mycase
+            {Natal}{Natal}{Christian and Missionary Alliance}{878 F.2d}{1575...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -159,8 +219,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ./authorities.tex:25: Undefined control sequence.
-l.25 \citecase
-              {Kedroff v. St. Nicholas Cathedral of the Russian Orthodox Pre...
+l.25 \mycase
+            {Lewis}{Lewis}{Seventh Day Adventists Lake Region Conf.}{978 F.2...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -168,8 +228,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ./authorities.tex:26: Undefined control sequence.
-l.26 \citecase
-              {Larson v. Valente, 456 U.S. 228 (1982)}
+l.26 \mycase
+            {Catholic Univ.}{E.E.O.C.}{Catholic Univ. of America}{83 F.3d}{4...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -177,8 +237,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ./authorities.tex:27: Undefined control sequence.
-l.27 \citecase
-              {Watson v. Jones, 80 U.S. 679 (1872)}
+l.27 \mycase
+            {Presbyterian Press}{Presbyterian Press}{Hull Press}{393 U.S.}{4...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -186,17 +246,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ./authorities.tex:28: Undefined control sequence.
-l.28 \citecase
-              {Thomas v. Review Bd., 450 U.S. 707 (1981)}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./authorities.tex:29: Undefined control sequence.
-l.29 \citecase
-              {Walz v. Tax Comm'n of City of New York, 397 U.S. 664 (1970)}
+l.28 \mycase
+            {Elvig}{Schmesbyterian Press}{Hull Press}{393 U.S.}{440}{1969}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -204,8 +255,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ./authorities.tex:30: Undefined control sequence.
-l.30 \citecase
-              {Everson v. Board of Ed. of Ewing, 330 U.S. 1 (1947)}
+l.30 \mycase
+            {Milivojevich}{Serbian Eastern Orthodox Diocese for the USA and ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -213,17 +264,71 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ./authorities.tex:31: Undefined control sequence.
-l.31 \citecase
-              {Arbaugh v. Y&H Corp., 546 U.S. 500 (2006)}
+l.31 \mycase
+            {Kedroff}{Kedroff}{St. Nicholas Cathedral of the Russian Orthodo...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./authorities.tex:31: Misplaced alignment tab character &.
-l.31 \citecase{Arbaugh v. Y&
-                            H Corp., 546 U.S. 500 (2006)}
+./authorities.tex:32: Undefined control sequence.
+l.32 \mycase
+            {Larson}{Larson}{Valente}{456 U.S.}{228}{1982}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./authorities.tex:33: Undefined control sequence.
+l.33 \mycase
+            {Watson}{Watson}{Jones}{80 U.S.}{679}{1872}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./authorities.tex:34: Undefined control sequence.
+l.34 \mycase
+            {Thomas}{Thomas}{Review Bd.}{450 U.S.}{707}{1981}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./authorities.tex:35: Undefined control sequence.
+l.35 \mycase
+            {Walz}{Walz}{Tax Comm'n of City of New York}{397 U.S.}{664}{1970}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./authorities.tex:36: Undefined control sequence.
+l.36 \mycase
+            {Everson}{Everson}{Board of Ed. of Ewing}{330 U.S.}{1}{1947}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./authorities.tex:37: Undefined control sequence.
+l.37 \mycase
+            {Arbaugh}{Arbaugh}{Y&H Corp.}{546 U.S.}{500}{2006}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./authorities.tex:37: Misplaced alignment tab character &.
+l.37 \mycase{Arbaugh}{Arbaugh}{Y&
+                                 H Corp.}{546 U.S.}{500}{2006}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -231,8 +336,8 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-./authorities.tex:33: Undefined control sequence.
-l.33 \newbook
+./authorities.tex:38: Undefined control sequence.
+l.38 \newbook
              {Prosser and Keaton}{William Lloyd Prosser & W. Page Keaton}{Th...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -240,8 +345,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./authorities.tex:33: Misplaced alignment tab character &.
-l.33 ...rosser and Keaton}{William Lloyd Prosser &
+./authorities.tex:38: Misplaced alignment tab character &.
+l.38 ...rosser and Keaton}{William Lloyd Prosser &
                                                    W. Page Keaton}{The Law o...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -250,8 +355,8 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-./authorities.tex:35: Undefined control sequence.
-l.35 \newarticle
+./authorities.tex:40: Undefined control sequence.
+l.40 \newarticle
                 {Note, \emph{The typesetting exception}}{Note}{The typesetti...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -259,8 +364,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./authorities.tex:35: Undefined control sequence.
-l.35 \newarticle{Note, \emph
+./authorities.tex:40: Undefined control sequence.
+l.40 \newarticle{Note, \emph
                             {The typesetting exception}}{Note}{The typesetti...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -268,8 +373,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./authorities.tex:37: Undefined control sequence.
-l.37 \newstatute
+./authorities.tex:42: Undefined control sequence.
+l.42 \newstatute
                 {Fed. R. Civ. P.}{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -277,8 +382,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./authorities.tex:38: Undefined control sequence.
-l.38 \SetIndexName
+./authorities.tex:43: Undefined control sequence.
+l.43 \SetIndexName
                   {Fed. R. Civ. P.}{Federal Rules of Civil Procedure !Rule }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -286,8 +391,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./authorities.tex:40: Undefined control sequence.
-l.40 \newmisc
+./authorities.tex:45: Undefined control sequence.
+l.45 \newmisc
              {J.A.}{J.A. \pin{}{}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -295,8 +400,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./authorities.tex:40: Undefined control sequence.
-l.40 \newmisc{J.A.}{J.A. \pin
+./authorities.tex:45: Undefined control sequence.
+l.45 \newmisc{J.A.}{J.A. \pin
                              {}{}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -304,8 +409,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./authorities.tex:41: Undefined control sequence.
-l.41 \SetIndexType
+./authorities.tex:46: Undefined control sequence.
+l.46 \SetIndexType
                   {J.A.}{}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -313,8 +418,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./authorities.tex:45: Undefined control sequence.
-l.45 \index
+./authorities.tex:50: Undefined control sequence.
+l.50 \index
            {Statute}{aa@\textsc{U.S. Const.} amend. I|idxpassim}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -322,8 +427,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./authorities.tex:45: Undefined control sequence.
-l.45 \index{Statute}{aa@\textsc
+./authorities.tex:50: Undefined control sequence.
+l.50 \index{Statute}{aa@\textsc
                                {U.S. Const.} amend. I|idxpassim}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have

@@ -1,7 +1,7 @@
 \babel@toc {american}{}
 \contentsline {section}{\numberline {\hspace {-1em}}Question Presented}{i}{}%
 \contentsline {section}{\numberline {\hspace {-1em}}Related Proceedings}{ii}{}%
-\contentsline {section}{\numberline {\hspace {-1em}}Table of Authorities}{v}{}%
+\contentsline {section}{\numberline {\hspace {-1em}}Table of Authorities}{iv}{}%
 \contentsline {section}{\numberline {\hspace {-1em}}Introduction and Interest of \emph {Amicus Curiæ}}{1}{}%
 \contentsline {section}{\numberline {\hspace {-1em}}Summary of Argument}{3}{}%
 \contentsline {section}{\numberline {\hspace {-1em}}Argument}{5}{}%
