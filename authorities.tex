@@ -1,17 +1,18 @@
 %%Citations
 
+\newcommand{\mycase}[6]{
+\newcase{#1}{%
+#2\emph{ v. }#3}{#4}{#5}{(#6)}%
+}
+
+\bodyfalse
 %The command \makeandletter turns the ampersand into a printable character, rather than a special alignment tab
 \makeandletter
 
-
-\newcommand{\mycase}[6]{
-\newcase{#1}{#2\emph{ v. }#3}{#4}{#5}{#6}%
-}
 %We use \newcase because the \emph will throw off parsing in \mycase
-\newcase{Hosanna-Tabor I}{E.E.O.C.\emph{}{}Hosanna-Tabor Evangelical Lutheran Press and School \emph{(Hosanna-Tabor I)}}
-	{582 F. Supp. 2d}{881}{(E.D. Mich. 2008)}
-\newcase{Hosanna-Tabor II}{E.E.O.C.\emph{}{}Hosanna-Tabor Evangelical Lutheran Press and School \emph{(Hosanna-Tabor II)}}
-	{597 F.3d}{769}{(6th Cir. 2010)}
+\mycase{Hosanna-Tabor I}{E.E.O.C.}{Hosanna-Tabor Evangelical Lutheran Press and School \emph{(Hosanna-Tabor I)}}{582 F. Supp. 2d}{881}{E.D. Mich. 2008}
+\mycase{Hosanna-Tabor II}{E.E.O.C.}{Hosanna-Tabor Evangelical Lutheran Press and School \emph{(Hosanna-Tabor II)}}
+	{597 F.3d}{769}{6th Cir. 2010}
 
 %Saves me from writing out the full cite command for the district and circuit court opinions
 \def\HTDist#1{\pincite{Hosanna-Tabor I}{#1}}
@@ -48,4 +49,4 @@
 %The following line add ``U.S. Const. Amend. I'' to the Statutes index section, 
 % uses the aa@ prefix to order it first in the list, and marks it passim
 \index{Statute}{aa@\textsc{U.S. Const.} amend. I|idxpassim}
-
+\bodytrue

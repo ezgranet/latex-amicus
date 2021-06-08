@@ -696,7 +696,7 @@
 %http://web2.westlaw.com/find/default.wl?ifm=NotSet&rp=%2ffind%2fdefault.wl&sv=Split&utid=1&rs=WLW9.10&cite=421+US+1&fn=_top&mt=LawSchoolPractitioner&vr=2.0&pbc=9B14F39A
 \newcommand{\@bbLink}[1]{#1}
 
-\newcommand{\@bbCaseIndexCite}[2]{{\CF\@bbLink{\FullName{#1}}},\idxbreak\ \Reporter{#1}~\StartPage{#1} \Parenthetical{#1}}
+\newcommand{\@bbCaseIndexCite}[2]{\emph{{\CF\@bbLink{\FullName{#1}}}},\idxbreak\ \Reporter{#1}~\StartPage{#1} \Parenthetical{#1}}
 %\newcommand{\@bbBookIndexCite}[2]{\Authors{#1},\idxbreak\ \FillIn{}{\@vol}{ }{\em\Title{#1}} \Parenthetical{#1}}
 \newcommand{\@bbBookIndexCite}[2]{\Authors{#1},\idxbreak\ {\em\Title{#1}} \Parenthetical{#1}}
 %\newcommand{\@bbStatuteIndexCite}[2]{\ShortName{#1} !#2}
@@ -1103,7 +1103,7 @@
 
 %\def\indexglue{\hspace{0in plus 1.fil}}
 %\def\indexglue{\hspace{3in plus 1.fill minus 3in}}
-\def\indexglue{}
+\def\indexglue{\normalfont}
 \def\indexpenalty{-10}
 \def\idxbreak{\indexglue\penalty\indexpenalty} %Helper routine that combines the above two
 

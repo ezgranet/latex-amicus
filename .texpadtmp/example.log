@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.27)  8 JUN 2021 12:25
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.5.27)  8 JUN 2021 13:48
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -809,8 +809,8 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package crop Info: using `pdftex' graphics driver on input line 16.
-File: scotus.png Graphic file (type bmp)
-<scotus.png>
+File: scotus2.png Graphic file (type bmp)
+<scotus2.png>
 
 Overfull \hbox (4.24496pt too wide) in paragraph at lines 18--18
  [][] 
@@ -859,6 +859,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [2]
 Underfull \hbox (badness 1253) in paragraph at lines 5--5
 []\TU/TeXGyreScholaX-Regular(0)/m/n/12 Quisque ullamcorper placerat ipsum. Cras
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 8--9
+\TU/TeXGyreScholaX-Regular(0)/m/n/12 consequat laoreet varius, eros tellus scelerisque
  []
 
 
@@ -977,7 +982,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [14
-\indexentry{{\em  E.E.O.C.\emph  {}{}Hosanna-Tabor Evangelical Lutheran Press and School \emph  {(Hosanna-Tabor I)}},\penalty -10\ 582 F. Supp. 2d~ 881 (E.D. Mich. 2008)}{14}
+\indexentry{\emph  {{\em  E.E.O.C.\emph  { v. }Hosanna-Tabor Evangelical Lutheran Press and School \emph  {(Hosanna-Tabor I)}}},\normalfont  \penalty -10\ 582 F. Supp. 2d~ 881 (E.D. Mich. 2008)}{14}
 runsystem(makeindex -r -s lawcitations.ist Case)...executed.
 
 runsystem(makeindex -L -r -s lawcitations.ist Statute)...executed.
@@ -987,8 +992,8 @@ runsystem(makeindex -r -s lawcitations.ist Other)...executed.
 ] (/Users/ezgranet/Documents/GitHub/latex-amicus/.texpadtmp/example.aux) ) 
 Here is how much of TeX's memory you used:
  18135 strings out of 476683
- 399256 string characters out of 5817907
- 1503720 words of memory out of 5000000
+ 399264 string characters out of 5817907
+ 1503788 words of memory out of 5000000
  37937 multiletter control sequences out of 15000+600000
  406502 words of font info for 78 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
