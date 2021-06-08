@@ -1,38 +1,42 @@
+%%Citations
 
-\makeandletter
 %The command \makeandletter turns the ampersand into a printable character, rather than a special alignment tab
-
-%We use \newcase because the \emph will throw off parsing in \citecase
-\newcase{Hosanna-Tabor I}{E.E.O.C. v. Hosanna-Tabor Evangelical Lutheran Press and School \emph{(Hosanna-Tabor I)}}
+\makeandletter
+\newcommand{\mycase}[6]{%
+\newcase{#1}{#2\emph{ v. }#3}
+	{#4}{#5}{(#6)}%
+}
+%We use \newcase because the \emph will throw off parsing in \mycase
+\newcase{Hosanna-Tabor I}{E.E.O.C.\emph{}{}Hosanna-Tabor Evangelical Lutheran Press and School \emph{(Hosanna-Tabor I)}}
 	{582 F. Supp. 2d}{881}{(E.D. Mich. 2008)}
-\newcase{Hosanna-Tabor II}{E.E.O.C. v. Hosanna-Tabor Evangelical Lutheran Press and School \emph{(Hosanna-Tabor II)}}
+\newcase{Hosanna-Tabor II}{E.E.O.C.\emph{}{}Hosanna-Tabor Evangelical Lutheran Press and School \emph{(Hosanna-Tabor II)}}
 	{597 F.3d}{769}{(6th Cir. 2010)}
 
 %Saves me from writing out the full cite command for the district and circuit court opinions
 \def\HTDist#1{\pincite{Hosanna-Tabor I}{#1}}
 \def\HTApp#1{\pincite{Hosanna-Tabor II}{#1}}
+\mycase{Rweyemamu}{Rweyemamu}{Cote}
+	{520 F.3d}{198}{2d Cir. 2008}
+\mycase{McClure}{McClure}{Salvation Army}{460 F.2d}{553}{5th Cir. 1972}
+\mycase{Gannon}{Petruska}{Calvin Presbyterian Press}{375 F. 3d}{ 951}{9th Cir. 2004}
+\mycase{Petruska}{Natal}{Christian and Missionary Alliance}{878 F.2d}{ 1575}{(1st Cir. 1989}
+\mycase{Natal}{Natal}{Christian and Missionary Alliance}{878 F.2d}{1575}{(1st Cir. 1989}
+\mycase{Lewis}{Lewis}{Seventh Day Adventists Lake Region Conf.}{978 F.2d}{940}{(6th Cir. 1992}
+\mycase{Catholic Univ.}{E.E.O.C.}{Catholic Univ. of America}{83 F.3d}{455}{(D.C. Cir. 1996}
+\mycase{Presbyterian Press}{Presbyterian Press}{Hull Press}{393 U.S.}{440}{1969} 
+\mycase{Elvig}{Schmesbyterian Press}{Hull Press}{393 U.S.}{440}{1969} 
 
-\citecase{Rweyemamu v. Cote, 520 F.3d 198 (2d Cir. 2008)}
-\citecase{McClure v. Salvation Army, 460 F.2d 553 (5th Cir. 1972)}
-\citecase{Petruska v. Gannon Univ., 462 F.3d 294 (3d Cir. 2006)}
-\citecase{Elvig v. Calvin Presbyterian Press, 375 F. 3d 951 (9th Cir. 2004)}
-\citecase{Natal v. Christian and Missionary Alliance, 878 F.2d 1575 (1st Cir. 1989)}
-\citecase{Lewis v. Seventh Day Adventists Lake Region Conf., 978 F.2d 940 (6th Cir. 1992)}
-\citecase[Catholic Univ.]{E.E.O.C. v. Catholic Univ. of America, 83 F.3d 455 (D.C. Cir. 1996)}
-\citecase{Presbyterian Press v. Hull Press, 393 U.S. 440 (1969)} 
-\citecase[Milivojevich]{Serbian Eastern Orthodox Diocese for the USA and Canada v. Milivojevich, 426 U.S. 696 (1976)}
-\citecase{Kedroff v. St. Nicholas Cathedral of the Russian Orthodox Press in North America, 344 U.S. 94 (1952)}
-\citecase{Larson v. Valente, 456 U.S. 228 (1982)}
-\citecase{Watson v. Jones, 80 U.S. 679 (1872)}
-\citecase{Thomas v. Review Bd., 450 U.S. 707 (1981)} 
-\citecase{Walz v. Tax Comm'n of City of New York, 397 U.S. 664 (1970)}
-\citecase{Everson v. Board of Ed. of Ewing, 330 U.S. 1 (1947)}
-\citecase{Arbaugh v. Y&H Corp., 546 U.S. 500 (2006)}
+\mycase{Milivojevich}{Serbian Eastern Orthodox Diocese for the USA and Canada}{Milivojevich}{426 U.S.}{696}{1976}
+\mycase{Kedroff}{Kedroff}{St. Nicholas Cathedral of the Russian Orthodox Press in North America}{344 U.S.}{94}{1952}
+\mycase{Larson}{Larson}{Valente}{456 U.S.}{228}{1982}
+\mycase{Watson}{Watson}{Jones}{80 U.S.}{679}{1872}
+\mycase{Thomas}{Thomas}{Review Bd.}{450 U.S.}{707}{1981} 
+\mycase{Walz}{Walz}{Tax Comm'n of City of New York}{397 U.S.}{664}{1970}
+\mycase{Everson}{Everson}{Board of Ed. of Ewing}{330 U.S.}{1}{1947}
+\mycase{Arbaugh}{Arbaugh}{Y&H Corp.}{546 U.S.}{500}{2006}
+\newbook{Prosser and Keaton}{William Lloyd Prosser & W. Page Keaton}{The Law of Torts}{(2nd ed., 1953)} 
 
-\newbook{Prosser and Keaton}{William Lloyd Prosser and W. Page Keaton}{The Law of Torts}{(2nd ed., 1953)} 
-
-
-\newarticle{Note, \emph{The typesetting exception}}{Note}{The typesetting exception To Title VII: The Case for a Deferential Primary Duties Test}{121 Harv. L. Rev.}{1776}{(2009)}{}
+\newarticle{Note, \emph{The typesetting exception}}{Note}{The typesetting Exception To Title VII: The Case for a Deferential Primary Duties Test}{121 Harv. L. Rev.}{1776}{(2009)}{}
 
 \newstatute{Fed. R. Civ. P.}{}
 \SetIndexName{Fed. R. Civ. P.}{Federal Rules of Civil Procedure !Rule }
@@ -43,3 +47,4 @@
 %The following line add ``U.S. Const. Amend. I'' to the Statutes index section, 
 % uses the aa@ prefix to order it first in the list, and marks it passim
 \index{Statute}{aa@\textsc{U.S. Const.} amend. I|idxpassim}
+

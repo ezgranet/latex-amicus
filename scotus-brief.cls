@@ -4,6 +4,16 @@
 \LoadClassWithOptions{article}
 }{}%
 
+\RequirePackage[svgnames]{xcolor}
+\usepackage[object=vectorian]{pgfornament} %%  http://altermundus.com/pages/tkz/ornament/index.html
+\usepackage{tikz}
+\usepackage{enumitem}
+\newenvironment{nostat}{\begin{enumerate}[nosep,leftmargin=0.5in,labelindent=5pt,itemindent=0pt,label=]}{\end{enumerate}}
+\newcommand{\relproc}[2]{\noindent \textsc{#1} 
+
+\begin{nostat}
+	\item \cite{#2}:
+	\end{nostat}\medskip}
 
 
 \RequirePackage{array}
@@ -303,7 +313,19 @@
 %==============================================================================
 
 \newcommand{\sectionline}{\vbox{\baselineskip=1.5pt \hbox{\rule{\linewidth}{.7pt}}\hbox{\rule{\linewidth}{.7pt}}}}
-\newcommand{\smallrule}{\rule{.3\linewidth}{.7pt}}
+\newcommand{\smallrule}{%
+  \ \vspace{.5\baselineskip}\hspace{\fill}
+  {\color{black}
+    \resizebox{0.3\linewidth}{1ex}
+    {{%
+    {\begin{tikzpicture}
+    \node  (C) at (0,0) {};
+    \node (D) at (9,0) {};
+    \path (C) to [ornament=88] (D);
+    \end{tikzpicture}}}}}%
+    \hspace{\fill}
+    \par 
+  }
 
 \newcommand{\firstparty}[1]{\def\@firstparty{#1}}
 \newcommand{\firstpartytitle}[1]{\def\@firstpartytitle{#1}}
@@ -354,7 +376,10 @@
 \newcommand{\relatedproceedings}[1]{\def\@relatedproceedings{#1}}
 
 \input{titlepage}
-\newcommand{\printsignature}{\hfill\begin{minipage}[t]{0.48\textwidth}
+\newcommand{\printsignature}{
+\noindent\begin{center}\smallrule\end{center}
+
+\hfill\begin{minipage}[t]{0.48\textwidth}
 \begin{flushright}
 Respectfully submitted,\\
 \includegraphics[width=2in]{\@signature}\\
@@ -418,8 +443,10 @@ Respectfully submitted,\\
 \@questionpresented
 \newpage
 \section{Related Proceedings}
+\begin{flushleft}
 \setlength{\parindent}{0em}
 \@relatedproceedings
+\end{flushleft}
 \newpage
 \section*{Table of Contents}
 \tableofcontents
@@ -451,9 +478,11 @@ Respectfully submitted,\\
 \smallrule
 
 \MakeUppercase{\scshape\bfseries Brief for \@brieffor\\ as \textit{\@briefas}\\ supporting \@insupportof}
-\end{center}
 
 \smallrule
+
+\end{center}
+
 
 }
 
