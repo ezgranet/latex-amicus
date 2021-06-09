@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.6.8)  9 JUN 2021 14:42
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.6.8)  9 JUN 2021 14:53
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -848,46 +848,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 18.
  [1
 
-] (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
-
-./example.tex:18: Package titlesec Error: Entered in horizontal mode.
-
-See the titlesec package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 \makefrontmatter
-                     
-The <format> argument cannot contain horizontal material
-such as text, \noindent, \makebox, etc.
-
-(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [1] (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
-
-./example.tex:18: Package titlesec Error: Entered in horizontal mode.
-
-See the titlesec package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 \makefrontmatter
-                     
-The <format> argument cannot contain horizontal material
-such as text, \noindent, \makebox, etc.
-
-(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [2] (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
-
-./example.tex:18: Package titlesec Error: Entered in horizontal mode.
-
-See the titlesec package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 \makefrontmatter
-                     
-The <format> argument cannot contain horizontal material
-such as text, \noindent, \makebox, etc.
-
-(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) (/Users/ezgranet/Documents/GitHub/latex-amicus/.texpadtmp/example.toc
+] (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [1] (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) [2] (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) (/Users/ezgranet/Documents/GitHub/latex-amicus/.texpadtmp/example.toc
 Overfull \hbox (17.8006pt too wide) in paragraph at lines 11--11
  [] []\TU/TeXGyreScholaX-Regular(0)/m/n/12 Courts violate the First Amendment when 
  []
@@ -901,40 +862,14 @@ Overfull \hbox (6.4966pt too wide) in paragraph at lines 12--12
 \tf@toc=\write7
 \openout7 = `example.toc'.
 
- [4] (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
-
-./example.tex:18: Package titlesec Error: Entered in horizontal mode.
-
-See the titlesec package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 \makefrontmatter
-                     
-The <format> argument cannot contain horizontal material
-such as text, \noindent, \makebox, etc.
-
-(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) (./Case.ind [5])
+ [4] (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) (./Case.ind [5])
 \traux=\read4
  (./Statute.ind)
 \traux=\read5
  (./Other.ind [6]) [7]
 File: scotus2.png Graphic file (type bmp)
 <scotus2.png>
- (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) (./brief-content.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
-
-./brief-content.tex:1: Package titlesec Error: Entered in horizontal mode.
-
-See the titlesec package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 ...uction and Interest of \emph{Amicus Curiæ}}
-                                                  
-The <format> argument cannot contain horizontal material
-such as text, \noindent, \makebox, etc.
-
-(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+ (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) (./brief-content.tex (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -952,19 +887,6 @@ Underfull \hbox (badness 1253) in paragraph at lines 5--5
 []\TU/TeXGyreScholaX-Regular(0)/m/n/12 Quisque ullamcorper placerat ipsum. Cras
  []
 
-(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
-
-./brief-content.tex:6: Package titlesec Error: Entered in horizontal mode.
-
-See the titlesec package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 \section{Summary of Argument}
-                                 
-The <format> argument cannot contain horizontal material
-such as text, \noindent, \makebox, etc.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -972,7 +894,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[3] (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+[3] (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 Underfull \hbox (badness 1205) in paragraph at lines 8--9
 \TU/TeXGyreScholaX-Regular(0)/m/n/12 consequat laoreet varius, eros tellus scelerisque
  []
@@ -984,20 +906,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[4] (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
-
-./brief-content.tex:13: Package titlesec Error: Entered in horizontal mode.
-
-See the titlesec package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.13 \section{Argument}
-                       
-The <format> argument cannot contain horizontal material
-such as text, \noindent, \makebox, etc.
-
-(/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+[4]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1005,7 +914,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[5]
+[5] (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1014,10 +923,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [6]
-Underfull \hbox (badness 3009) in paragraph at lines 38--41
-[]\TU/TeXGyreScholaX-Regular(0)/m/n/12 Donec a nibh ut elit vestibulum tristique.
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1026,6 +931,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [7]
+Underfull \hbox (badness 3009) in paragraph at lines 38--41
+[]\TU/TeXGyreScholaX-Regular(0)/m/n/12 Donec a nibh ut elit vestibulum tristique.
+ []
+
+
 Underfull \hbox (badness 1596) in paragraph at lines 42--43
 []\TU/TeXGyreScholaX-Regular(0)/m/n/12 Sed ultrices, pede eu placerat auctor, ante
  []
@@ -1082,18 +992,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[13] (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+[13]
 
-./brief-content.tex:78: Package titlesec Error: Entered in horizontal mode.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-See the titlesec package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.78 \section{Conclusion}
-                         
-The <format> argument cannot contain horizontal material
-such as text, \noindent, \makebox, etc.
+[14] (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
+File: typed-signature.png Graphic file (type bmp)
+<typed-signature.png>
+
+Overfull \hbox (8.27525pt too wide) in paragraph at lines 37--37
+ [][]
+ []
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
 
@@ -1103,22 +1016,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[14]) (/usr/local/texlive/2021/texmf-dist/tex/generic/pgfornament/vectorian/vectorian88.pgf)
-File: typed-signature.png Graphic file (type bmp)
-<typed-signature.png>
-
-Overfull \hbox (8.27525pt too wide) in paragraph at lines 37--37
- [][]
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
 [15
+\indexentry{\emph  {{\em  E.E.O.C.\emph  { v. }Hosanna-Tabor Evangelical Lutheran Press and School \emph  {(Hosanna-Tabor I)}}},\normalfont  \penalty -10\ 582 F. Supp. 2d~ 881 (E.D. Mich. 2008)}{15}
 runsystem(makeindex -r -s lawcitations.ist Case)...executed.
 
 runsystem(makeindex -L -r -s lawcitations.ist Statute)...executed.
@@ -1127,12 +1026,12 @@ runsystem(makeindex -r -s lawcitations.ist Other)...executed.
 
 ] (/Users/ezgranet/Documents/GitHub/latex-amicus/.texpadtmp/example.aux) ) 
 Here is how much of TeX's memory you used:
- 18588 strings out of 476469
- 407660 string characters out of 5814088
- 1520142 words of memory out of 5000000
- 38574 multiletter control sequences out of 15000+600000
+ 18591 strings out of 476469
+ 407856 string characters out of 5814088
+ 1518979 words of memory out of 5000000
+ 38575 multiletter control sequences out of 15000+600000
  406502 words of font info for 78 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 132i,11n,136p,514b,1075s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 132i,11n,136p,514b,1121s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /Users/ezgranet/Documents/GitHub/latex-amicus/.texpadtmp/example.pdf (23 pages).

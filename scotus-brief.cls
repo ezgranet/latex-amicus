@@ -53,6 +53,13 @@
 \renewcommand{\thesubsection}{\Roman{subsection}}
 \renewcommand{\thesubsubsection}{\Alph{subsubsection}.}
 \RequirePackage{graphicx}
+\usepackage{titlesec}
+\newcommand{\sectionfont}{\bfseries}
+\titleformat{\section}
+    {\smallrule\centering}
+    {\thesection}{1em}
+    {\sectionfont}[\smallrule]
+
 %==============================================================================
 %%
 %% \subsection{Configuring the Index / Table of Authorities}
@@ -316,17 +323,16 @@
 \hbox{\rule{\linewidth}{.7pt}}
 \hbox{\rule{\linewidth}{.7pt}}\hbox{\rule{\linewidth}{.7pt}}}}
 \newcommand{\smallrule}{%
-  \ \vspace{.5\baselineskip}\hspace{\fill}
+\begin{center}
   {\color{black}
-    \resizebox{0.3\linewidth}{1ex}
+  \resizebox{0.3\linewidth}{1ex}
     {{%
     {\begin{tikzpicture}
     \node  (C) at (0,0) {};
     \node (D) at (9,0) {};
     \path (C) to [ornament=88] (D);
     \end{tikzpicture}}}}}%
-    \hspace{\fill}
-    \par 
+\end{center}
   }
 
 \newcommand{\firstparty}[1]{\def\@firstparty{#1}}
@@ -389,6 +395,7 @@ Respectfully submitted,\\
 \@mydate
 \end{flushright}
 \end{minipage}
+\smallrule
 \end{document}}
 
 \newcommand{\makecaption}{{
@@ -457,6 +464,7 @@ Respectfully submitted,\\
 \pagenumbering{arabic}
 \thispagestyle{empty}
 \begin{center}
+\includegraphics[width=0.75in]{scotus2.png}\\
 \textsc{in the}\\
 \large\blcklttr Supreme Court of the United States\normalfont
 
