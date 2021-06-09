@@ -1,3 +1,9 @@
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%% PAGE NUMBERS
+%%%%%%%% ON TOP
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{fancyhdr}
 \fancyhf{}
 \fancyhf[rh]{}% right header
@@ -7,16 +13,38 @@
 \fancyhf[lf]{}% left footer
 \fancyhf[cf]{}% centre
 \fancyhf[rf]{}% right
-\usepackage{footmisc}
-%\usepackage{hanging}
-%\usepackage[bottom,hang]{footmisc}
+%\usepackage{footmisc}
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%% BRINGHURST%%%%%%%%
+%%%%%%%% Was%%%%%%%%%%%%%%%%
+%%%%%%%% FOLLOWED%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{hanging}
+\usepackage[bottom,hang]{footmisc}
+\makeatletter
+ \renewcommand{\@makefntext}[1]{%
+\parindent 0em\hangpara{6ex}{1}{
+\noindent\normalfont\parbox{3ex}{\@thefnmark}#1}}
+\makeatother
 %\makeatletter
 % \renewcommand{\@makefntext}[1]{%
 %\parindent3ex\
 %\noindent\normalfont\parbox{3ex}{\@thefnmark}#1}
 %\makeatother
-\renewcommand{\footnotelayout}{\hspace{2em}}% Here you can modify the spacing between the footnote number and the text of footnote; keep this value and \hangfootparindent value the same
-
+%\setlength{\hangfootparindent}{1em}
+%\renewcommand{\footnotelayout}{\hspace{1ex}}% Here you can modify the spacing between the footnote number and the text of footnote; keep this value and \hangfootparindent value the same
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%LIPSUMMY STUFF
+%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%%%%%% DELETE AT WILL WHEN
+%%%%%%%%%%%%%%%% MAKING
+%%%%%%%%%%%%%%%% A REAL 
+%%%%%%%%%%%%%%%% BRIEF
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{lipsum}
 \usepackage{xparse}
 
@@ -47,12 +75,25 @@
    }
  }
 \ExplSyntaxOff
+
+
 \newcommand{\lsp}[1]{\lipsumsentence[#1]}
 
 \usepackage{kantlipsum}
-%\usepackage[hang]{footmisc}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%% IMPORTANT
+%%%%%%%% FOR 
+%%%%%%%%%%%%%%%% SCOTUS
+%%%%%%%%%%%%%%%% FORMATTING
+
 \usepackage[paperwidth=6.125in,paperheight=9.25in,left=1in,right=1in,top=1.0625in,bottom=1.0625in,bindingoffset=5mm]{geometry}
 \usepackage[letter,center,noinfo,cam]{crop}
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%% PER 
+%%%%%%%%%%%%%%%% SCOTUS
+%%%%%%%%%%%%%%%% RULES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{leading}
 \leading{14pt} 
