@@ -1,9 +1,12 @@
 \@ifundefined{SuppressClass}{%
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{lawbrief}
+\ProvidesClass{scotus-brief}
 \LoadClassWithOptions{article}
 }{}%
-
+\usepackage{hyperref}
+\hypersetup{hidelinks,
+citecolor=DarkSlateBlue, filecolor=DarkSlateBlue, plainpages=false, bookmarksnumbered}
+\setlength{\headheight}{15pt}
 \RequirePackage[svgnames]{xcolor}
 \usepackage[object=vectorian]{pgfornament} %%  http://altermundus.com/pages/tkz/ornament/index.html
 \usepackage{tikz}
@@ -395,13 +398,12 @@ Respectfully submitted,\\
 \@mydate
 \end{flushright}
 \end{minipage}
-\smallrule
-\end{document}}
+\smallrule}
 
 \newcommand{\makecaption}{{
 \singlespacing
 
-\begin{centering}
+\begin{center}
 \bf\scshape \@court \\~\\ 
 \rm 
 
@@ -419,20 +421,15 @@ Respectfully submitted,\\
 
 ~ 
 
-\raggedright\@secondparty, 
-
-~
-
-\hspace*{2in}\textit{\@secondpartytitle.} 
-
-~
+\raggedright\@secondparty, \\
+\hfill\textit{\@secondpartytitle.} \\
 } &
 {\@actionnumber
 } \\
 \cline{1-1}
 \end{tabular}
 
-\end{centering}
+\end{center}
 }}
 
 %%
@@ -464,36 +461,21 @@ Respectfully submitted,\\
 \pagenumbering{arabic}
 \thispagestyle{empty}
 \begin{center}
-\includegraphics[width=0.75in]{scotus2.png}\\
+\includegraphics[width=0.5in]{scotus2.png}\\
 \textsc{in the}\\
-\large\blcklttr Supreme Court of the United States\normalfont
-
-\smallrule
-
-\normalsize\@docket
-
-\smallrule
-
-
-\scshape\@firstparty, \@firstpartytitle,
-
-\normalfont\textit{v}.
-
+\normalsize\blcklttr Supreme Court of the United States\normalfont
+{\normalsize\smallrule}
+\footnotesize\scshape\@firstparty, \@firstpartytitle,\\
+\normalfont\textit{v}.\\
 \scshape\@secondparty, \@secondpartytitle.
-
-\smallrule
-
-\normalfont\footnotesize On Writ of \textit{Certioriari} to the \\United States Court of Appeals\\ for the \@circuit\ Circuit\normalsize
-
-\smallrule
-
-\MakeLowercase{\scshape Brief for \@brieffor\\ as \textit{\@briefas}\\ supporting \@insupportof}
-
-\smallrule
-
+{\normalsize\smallrule}
+\MakeLowercase{\scshape Brief for \@brieffor\\ as \textit{\@briefas} supporting \@insupportof}\normalsize
 \end{center}
-
-
+\parindent=2em 
+ \sloppy
+\setlength{\emergencystretch}{5pt}
+\hyphenpenalty=0
+\pagestyle{fancy}
 }
 
 %%
@@ -524,5 +506,12 @@ Respectfully submitted,\\
 %Set the first pagestyle to have no number
 \thispagestyle{empty}
 
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% SIMPLER TO 
+% JUST HAVE Everything go at once
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\AtBeginDocument{\makefrontmatter}
+\AtEndDocument{\printsignature}
 % vim: set syntax=tex :
